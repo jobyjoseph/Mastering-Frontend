@@ -1,4 +1,4 @@
-# Mastering-Frontend
+# Mastering Frontend
 
 ## JavaScript
 
