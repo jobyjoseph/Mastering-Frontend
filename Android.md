@@ -9,4 +9,5 @@
 - Add navigation component to project
 - Create NavHostFragment
 - Add fragments to navigation graph
-
+- Render navigation conditionally
+- Control device back button
