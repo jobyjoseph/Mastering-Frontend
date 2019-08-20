@@ -2,7 +2,7 @@
 
 Data Binding Basics - https://codelabs.developers.google.com/codelabs/kotlin-android-training-data-binding-basics/index.html
 
-- Implement basic databinding in Kotlin
+
 
 Define Navigation Paths - https://codelabs.developers.google.com/codelabs/kotlin-android-training-add-navigation/index.html
 
