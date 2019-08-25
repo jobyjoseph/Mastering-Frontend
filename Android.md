@@ -3,7 +3,6 @@
 Data Binding Basics - https://codelabs.developers.google.com/codelabs/kotlin-android-training-data-binding-basics/index.html
 
 
-
 Define Navigation Paths - https://codelabs.developers.google.com/codelabs/kotlin-android-training-add-navigation/index.html
 
 > Navigation destinations are fragments, activities, or other app components that the user navigates to. A navigation graph defines the possible paths from one navigation destination to the next.
@@ -17,3 +16,5 @@ Start an External Activity - https://codelabs.developers.google.com/codelabs/kot
 > An implicit intent declares an action that your app wants some other app (such as a camera app or email app) to perform on its behalf.
 
 > To add an options menu to a fragment, set the `setHasOptionsMenu()` method to `true` in the fragment code.
+
+Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-android-training-lifecycles-logging/index.html
