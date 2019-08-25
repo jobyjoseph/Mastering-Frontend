@@ -22,3 +22,5 @@ Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-
 > Every activity and every fragment has what is known as a _lifecycle_.
 
 > The `onCreate()` method is where you should do any one-time initializations for your activity.
+
+> The `onCreate()` method is an override, so within it, you must immediately call `super.onCreate()`. The same is true for other lifecycle methods.
