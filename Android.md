@@ -20,3 +20,5 @@ Start an External Activity - https://codelabs.developers.google.com/codelabs/kot
 Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-android-training-lifecycles-logging/index.html
 
 > Every activity and every fragment has what is known as a _lifecycle_.
+
+> The `onCreate()` method is where you should do any one-time initializations for your activity.
