@@ -18,3 +18,5 @@ Start an External Activity - https://codelabs.developers.google.com/codelabs/kot
 > To add an options menu to a fragment, set the `setHasOptionsMenu()` method to `true` in the fragment code.
 
 Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-android-training-lifecycles-logging/index.html
+
+> Every activity and every fragment has what is known as a _lifecycle_.
