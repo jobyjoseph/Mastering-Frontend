@@ -15,6 +15,18 @@ HTML5 Web Workers for AJAX Requests - http://techslides.com/html5-web-workers-fo
 
 > Web worker script can execute AJAX request.
 
+Introducing Asynchronous JavaScript - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+
+> Async operations like promises are put into an event queue, which runs after the main thread has finished processing so that they do not block subsequent JavaScript code from running. 
+
+> You can chain multiple async operations together using multiple .then() operations, passing the result of one into the next one as an input. This is much harder to do with callbacks, which often ends up with a messy "pyramid of doom"
+
+> Promise callbacks are always called in the strict order they are placed in the event queue.
+
+> Error handling is much better — all errors are handled by a single .catch() block at the end of the block, rather than being individually handled in each level of the "pyramid".
+
+> Avoid inversion control: unlike callbacks will lose full control of how the function will be executed when passing a callback to a third-party library.
+
 ### Memory Management
 Memory Management - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
 
