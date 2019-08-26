@@ -24,3 +24,7 @@ Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-
 > The `onCreate()` method is where you should do any one-time initializations for your activity.
 
 > The `onCreate()` method is an override, so within it, you must immediately call `super.onCreate()`. The same is true for other lifecycle methods.
+
+ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelabs/kotlin-android-training-view-model/index.html
+
+> _ViewModel_ and _LiveData_ are Android Architecture Components, which are libraries and other components that help you design robust, testable, maintainable apps.
