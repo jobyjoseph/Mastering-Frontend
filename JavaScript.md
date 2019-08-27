@@ -27,6 +27,10 @@ Introducing Asynchronous JavaScript - https://developer.mozilla.org/en-US/docs/L
 
 > Avoid inversion control: unlike callbacks will lose full control of how the function will be executed when passing a callback to a third-party library.
 
+Timeouts and intervals - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
+
+> Recursive `setTimeout()` guarantees the same delay between the executions.
+
 ### Memory Management
 Memory Management - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
 
