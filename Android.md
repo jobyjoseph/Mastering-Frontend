@@ -28,3 +28,5 @@ Lifecycles and Logging - https://codelabs.developers.google.com/codelabs/kotlin-
 ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelabs/kotlin-android-training-view-model/index.html
 
 > _ViewModel_ and _LiveData_ are Android Architecture Components, which are libraries and other components that help you design robust, testable, maintainable apps.
+
+> App architecture is a way of designing your apps' classes, and the relationships between them, such that the code is organized, performs well in particular scenarios, and is easy to work with.
