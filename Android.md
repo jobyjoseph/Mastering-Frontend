@@ -32,3 +32,5 @@ ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelab
 > App architecture is a way of designing your apps' classes, and the relationships between them, such that the code is organized, performs well in particular scenarios, and is easy to work with.
 
 > A `ViewModel` holds data to be displayed in a fragment or activity associated with the `ViewModel`. 
+
+> Right before the ViewModel is destroyed, the `onCleared()` callback is called to clean up the resources.
