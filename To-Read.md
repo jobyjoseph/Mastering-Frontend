@@ -7,3 +7,5 @@ http://callbackhell.com/
 https://www.youtube.com/watch?v=bAlczbDUXx8 - Video on inversion of control
 
 https://developer.android.com/jetpack/
+
+http://creativejs.com/resources/requestanimationframe/index.html - RequestAnimationFrame
