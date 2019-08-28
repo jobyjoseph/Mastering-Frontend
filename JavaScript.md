@@ -31,6 +31,8 @@ Timeouts and intervals - https://developer.mozilla.org/en-US/docs/Learn/JavaScri
 
 > Recursive `setTimeout()` guarantees the same delay between the executions.
 
+> `requestAnimationFrame()` executes a specified block of code before the browser next repaints the display, allowing an animation to be run at a suitable frame rate regardless of the environment it is being run in.
+
 ### Memory Management
 Memory Management - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
 
