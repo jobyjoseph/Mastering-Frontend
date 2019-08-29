@@ -34,3 +34,5 @@ ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelab
 > A `ViewModel` holds data to be displayed in a fragment or activity associated with the `ViewModel`. 
 
 > Right before the ViewModel is destroyed, the `onCleared()` callback is called to clean up the resources.
+
+> A _factory method_ is a method that returns an instance of the same class.
