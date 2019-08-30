@@ -36,3 +36,7 @@ ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelab
 > Right before the ViewModel is destroyed, the `onCleared()` callback is called to clean up the resources.
 
 > A _factory method_ is a method that returns an instance of the same class.
+
+LiveData and LiveData Observers - https://codelabs.developers.google.com/codelabs/kotlin-android-training-live-data/index.html
+
+> LiveData, which is one of the Android Architecture Components, lets you build data objects that notify views when the underlying database changes.
