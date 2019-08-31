@@ -40,3 +40,7 @@ ViewModel and ViewModel Factory - https://codelabs.developers.google.com/codelab
 LiveData and LiveData Observers - https://codelabs.developers.google.com/codelabs/kotlin-android-training-live-data/index.html
 
 > LiveData, which is one of the Android Architecture Components, lets you build data objects that notify views when the underlying database changes.
+
+> Data in a MutableLiveData object can be changed, as the name implies. Inside the ViewModel, the data should be editable, so it uses MutableLiveData.
+
+> Data in a LiveData object can be read, but not changed. From outside the ViewModel, data should be readable, but not editable, so the data should be exposed as LiveData.
