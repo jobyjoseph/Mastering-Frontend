@@ -44,3 +44,9 @@ LiveData and LiveData Observers - https://codelabs.developers.google.com/codelab
 > Data in a MutableLiveData object can be changed, as the name implies. Inside the ViewModel, the data should be editable, so it uses MutableLiveData.
 
 > Data in a LiveData object can be read, but not changed. From outside the ViewModel, data should be readable, but not editable, so the data should be exposed as LiveData.
+
+Data binding with ViewModel and LiveData - https://codelabs.developers.google.com/codelabs/kotlin-android-training-live-data-data-binding/index.html
+
+> _Listener bindings_ are binding expressions that run when events such as onClick(), onZoomIn(), or onZoomOut() are triggered. Listener bindings are written as lambda expressions.
+
+> Listener bindings work with the Android Gradle Plugin version 2.0 or higher.
