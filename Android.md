@@ -52,3 +52,5 @@ Data binding with ViewModel and LiveData - https://codelabs.developers.google.co
 > Listener bindings work with the Android Gradle Plugin version 2.0 or higher.
 
 LiveData Transformations - https://codelabs.developers.google.com/codelabs/kotlin-android-training-live-data-transformations/index.html
+
+Room Database - https://codelabs.developers.google.com/codelabs/kotlin-android-training-room-database/index.html
