@@ -54,3 +54,9 @@ Data binding with ViewModel and LiveData - https://codelabs.developers.google.co
 LiveData Transformations - https://codelabs.developers.google.com/codelabs/kotlin-android-training-live-data-transformations/index.html
 
 Room Database - https://codelabs.developers.google.com/codelabs/kotlin-android-training-room-database/index.html
+
+> Room is a database library that's part of Android Jetpack. 
+
+> Room is an abstraction layer on top of an SQLite database.
+
+> You must define each entity as an annotated data class, and the interactions as an annotated interface, a data access object (DAO). Room uses these annotated classes to create tables in the database, and queries that act on the database.
