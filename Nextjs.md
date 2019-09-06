@@ -69,3 +69,10 @@ const router = useRouter();
 // JSX
 <h1>{router.query.id}</h1>
 ```
+
+```javascript
+// Creating dynamic links
+<Link href="/p/[id]" as={`/p/${props.id}`}>
+  <a>{props.id}</a>
+</Link>
+```
