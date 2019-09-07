@@ -149,3 +149,22 @@ Deploying Nextjs App - https://nextjs.org/learn/basics/deploying-a-nextjs-app
 
 Export into a Static HTML App - https://nextjs.org/learn/excel/static-html-export
 
+```javascript
+// File: next.config.js
+module.exports = {
+  exportPathMap: function() {
+    return {
+      "/": { page: "/" } // Exporting only index.js
+    };
+  }
+};
+
+// File: package.json
+//...
+"scripts": {
+  "export": "next export"
+}
+//...
+
+// export command creates html files in /out directory
+```
