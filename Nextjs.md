@@ -1,5 +1,10 @@
 Getting Started with Nextjs - https://nextjs.org/learn/basics/getting-started
 
+```javascript
+// We just need 3 packages to start
+npm install --save react react-dom next
+```
+
 Navigate Between Pages - https://nextjs.org/learn/basics/navigate-between-pages
 
 ```javascript
@@ -126,4 +131,21 @@ Styling Components - https://nextjs.org/learn/basics/styling-components
   `}
   </style>
 </Layout>
+
+// styled-jsx will not be applied for nested components
 ```
+
+```javascript
+// global attribute to apply styles even for nested components
+<style jsx global>{`
+    h1,
+    a {
+        font-family: "Arial";
+    }
+`}</style>
+```
+
+Deploying Nextjs App - https://nextjs.org/learn/basics/deploying-a-nextjs-app
+
+Export into a Static HTML App - https://nextjs.org/learn/excel/static-html-export
+
