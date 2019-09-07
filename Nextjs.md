@@ -108,3 +108,22 @@ Index.getInitialProps = async function() {
   </li>
 ))}
 ```
+
+Styling Components - https://nextjs.org/learn/basics/styling-components
+
+```javascript
+// Inside JSX
+<Layout>
+  <h1>Title of Blog</h1>
+  
+  {//...}
+  
+  <style jsx>
+  {`
+    h1 {
+      color: green;
+    }
+  `}
+  </style>
+</Layout>
+```
