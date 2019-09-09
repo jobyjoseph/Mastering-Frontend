@@ -168,3 +168,5 @@ module.exports = {
 
 // export command creates html files in /out directory
 ```
+
+Use Next.js with TypeScript - https://nextjs.org/learn/excel/typescript
