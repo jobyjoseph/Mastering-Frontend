@@ -170,3 +170,5 @@ module.exports = {
 ```
 
 Use Next.js with TypeScript - https://nextjs.org/learn/excel/typescript
+
+Lazy Loading Modules - https://nextjs.org/learn/excel/lazy-loading-modules
