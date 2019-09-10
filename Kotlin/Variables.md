@@ -54,6 +54,12 @@ If we need to assign `null` to a non-null type variable, that variable should be
 var a : String? = null;
 ```
 
+Kotlin does not allow a _nullable_ variable to be treated like a _non-nullable_ variable.
+
+```kotlin
+val name: String? = null;
+println(name.toUpperCase()); // Error: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
+```
 
 ## References
 
