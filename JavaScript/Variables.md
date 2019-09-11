@@ -66,7 +66,7 @@ let a = 8; // SyntaxError: Identifier 'a' has already been declared
 console.log(a);
 ```
 
-Constant variables are created using `const` keyword.
+Constant variables are created using `const` keyword. Once initialized, the value cannot be changed.
 
 ```javascript
 const a = 6;
