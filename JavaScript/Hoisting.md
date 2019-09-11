@@ -27,3 +27,13 @@ Variables declared using `let` or `const` are not hoisted.
 console.log(a); // ReferenceError: Cannot access 'a' before initialization
 let a; 
 ```
+
+For functions, only the function declaration gets hoisted to the top and not the function expression.
+
+```javascript
+a(); // "Joby"
+
+function a() {
+  console.log("Joby");
+}
+```
