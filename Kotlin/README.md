@@ -1,6 +1,7 @@
 1. [Variables](#variables)
 2. [Data Types](#data-types)
 3. [Conditionals](#conditionals)
+4. [Functions](#functions)
 
 ## Variables
 
@@ -148,7 +149,27 @@ We can group one or more expressions to a function.
 fun sum(a:Int, b:Int):Int {
     return a + b;
 }
+
+//...
+
+sum(2, 3) // 5
 ```
+
+In case of functions with only one statement, we can replace `return` statement with assignment operator.
+
+```kotlin
+fun sum(a:Int, b:Int):Int = a + b
+```
+
+Not every function needs a name. Some functions are more directly identified by their inputs and outputs. These functions are called _anonymous functions_.
+
+```kotlin
+val sum: (Int, Int) -> Int = { a, b ->
+    a + b;
+}
+```
+
+A function that takes another function as argument is called _Higher Order Function_.
 
 ## References
 
