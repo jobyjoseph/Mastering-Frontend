@@ -55,3 +55,13 @@ console.log(typeof a); // "number"
 a = "Joby";
 console.log(typeof a); // "string"
 ```
+
+Literals are used to represent values in JavaScript.
+
+```javascript
+let a = ["Apple", "Banana"]; // Array literal
+let b = true; // Boolean literal
+let c = 23; // Numeric literal
+let d = "Hello"; // String literal
+let e = { name: "Joby" }; // Object literal
+```
