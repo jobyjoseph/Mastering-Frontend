@@ -140,6 +140,16 @@ if (name != null) {
 // If the null check was not there we have to use name?.toUpperCase()
 ```
 
+## Functions
+
+We can group one or more expressions to a function.
+
+```kotlin
+fun sum(a:Int, b:Int):Int {
+    return a + b;
+}
+```
+
 ## References
 
 Learn Kotlin Programming Language - https://developer.android.com/kotlin/learn
