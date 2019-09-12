@@ -81,3 +81,11 @@ const a;
 a = 8; // SyntaxError: Missing initializer in const declaration
 console.log(a);
 ```
+
+Properties of objects assigned to a constant variable can be edited.
+
+```javascript
+const obj = { name: "Joby"};
+obj.name = "New Joby";
+console.log(obj); // { name: "New Joby" }
+```
