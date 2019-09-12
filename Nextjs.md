@@ -181,3 +181,11 @@ module.exports = {
 Use Next.js with TypeScript - https://nextjs.org/learn/excel/typescript
 
 Lazy Loading Modules - https://nextjs.org/learn/excel/lazy-loading-modules
+
+Serving Static Files - https://nextjs.org/docs#static-file-serving-eg-images
+
+Place static files in _/static_ folder. It can be referenced like:
+
+```html
+<img src="/static/logo.png" />
+```
