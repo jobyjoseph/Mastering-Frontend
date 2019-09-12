@@ -3,6 +3,15 @@ Getting Started with Nextjs - https://nextjs.org/learn/basics/getting-started
 ```javascript
 // We just need 3 packages to start
 npm install --save react react-dom next
+
+// File: package.json
+//...
+"scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+//...
 ```
 
 Navigate Between Pages - https://nextjs.org/learn/basics/navigate-between-pages
