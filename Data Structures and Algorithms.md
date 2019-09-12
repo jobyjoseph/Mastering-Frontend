@@ -1,6 +1,6 @@
 ## The Big O Notation
 
-We use Big O notation to describe the performance of an algorithm. It helps to find if an algorithm is scalable or not.
+We use Big O notation to describe the performance of an algorithm. It represents run time complexity of an algorithm. It helps to find if an algorithm is scalable or not.
 
 It is associated with Data Structures because performance of an algorithm changes based on the data structure we use. Eg: It is very to read an item from array, but costly to do inserting an item. On the other hand, inserting an element is easy in linkedlist, but reading an item is difficult.
 
