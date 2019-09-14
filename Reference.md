@@ -1,6 +1,6 @@
 **JavaScript**
 
-[List of ES features group by version](https://github.com/daumann/ECMAScript-new-features-list)
+List of ES features group by version - https://github.com/daumann/ECMAScript-new-features-list
 
 
 **Software Architecture**
