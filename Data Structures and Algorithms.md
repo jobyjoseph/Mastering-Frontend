@@ -121,3 +121,19 @@ int indexOf(int item) {
 ```
 
 As the size of the array increases, the time to find an item increases. Therefore the Big O to search an array item is __O(n)__.
+
+## LinkedList
+
+LinkedList is a data structure. It is used to store a sequence of elements. It can grow or shrink automatically.
+
+### Lookup Item
+
+If we need to find the i<sup>th</sup> element in a linkedlist, we need to start from the head and loop through. Therefore, the Big O for linkedlist lookup is __O(n)__.
+
+### Search Item
+
+If we need to search for an item, we need to start checking from head of linkedlist. That makes the Big O of operation to __O(n)__.
+
+### Insert Item
+
+Inserting an item in the end is an _O(1)_ operation. Inserting in the beginning is an _O(1)_ operation. Inserting in the middle is an _O(n)_ operation. So considering the worst case, insertion in Linkedlist is an __O(n)__ operation.
